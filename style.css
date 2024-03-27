@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgb(240, 155, 240), rgb(255, 221, 157));
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+input[type="field"] {
+    border-radius: 15px;
+    width: 30px;
+}
+
+.rows {
+    text-align: center;
+    justify-content: center;
+    flex: grid;
+    border-style: double;
+    border-radius: 10px;
+    border-color: black;
+    /* opacity: 0.5; */
+}
+
+.activityLevel {
+    display: flex;
+}
+
+#ageQuestion label {
+    font-size: 18px;
+}
+
+#weightQuestion label {
+    font-size: 18px;
+}
+
+#heightQuestion label {
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
+#sexQuestion {
+    display: block;
+}
+
+#sexQuestion label {
+    font-size: 18px;
+}
+
+.question  {
+    /* justify-content: center; */
+    text-align: center;
+    background: white;
+    /* border-style: dotted; */
+    border-radius: 15px;
+    margin: 15px;
+}
+
+#submitButton {
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: white;
+}
+
+.activity-level {
+    display: grid;
+    justify-content: center;
+}
+
+#activityLabel {
+    font-size: 25px;
+}
+
+#activityDropdown {
+    /* border-style: double; */
+    width: 200px;
+}
+
+.result {
+    font-family: monospace;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 0px;
+}

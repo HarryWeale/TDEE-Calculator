@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TDEE App</title>
+</head>
+
+<main>
+    <header>
+        <h1>
+            TDEE Calculator
+        </h1>
+    </header>
+    <div class="rows">
+        <div class="question" id="sexQuestion">
+            <label for="maleRadio">
+                Male
+            </label>
+            <input type="radio" id="maleRadio" name="sexRadio">
+            </input>
+            <label for="femaleRadio">
+                Female
+            </label>
+            <input type="radio" id="femaleRadio" name="sexRadio">
+            </input>
+        </div>
+        <div class="question" id="ageQuestion">
+            <label for="ageField">
+                Age (years)
+            </label>
+            <input type="field" id="ageField">
+            </input>
+        </div>
+        <div class="question" id="weightQuestion">
+            <label for="weightField">
+                Weight (kg)
+            </label>
+            <input type="field" id="weightField">
+            </input>
+        </div>
+        <div class="question" id="heightQuestion">
+            <label for="heightField">
+                Height (cm)
+            </label>
+            <input type="field" id="heightField">
+            </input>
+        </div>
+        <div class="activity-level">
+            <label for="activityDropdown" id="activityLabel">
+                Activity Level
+            </label>
+            <select id="activityDropdown">
+                <option value=""></option>
+                <option value="sedentary">
+                    Sedentary — desk job and little to no exercise
+                </option>
+                <option value="lightlyActive">
+                    Lightly Active — light exercise/sports 1 to 3 days/week                </option>
+                <option value="moderatelyActive">
+                    Moderately Active — moderate exercise/sports 3 to 5 days/week
+                </option>
+                <option value="veryActive">
+                    Very Active — hard exercise/sports 6 to 7 days/week
+                </option>
+                <option value="extremelyActive">
+                    Extremely Active — hard daily exercise/sports and physical job or training
+                </option>
+            </select>
+        </div>
+        <div class="submit">
+            <button type="submit" id="submitButton">
+                Calculate TDEE
+            </button>
+        </div>
+    </div>
+    <div class="result" id="result"></div>
+    <script src="script.js"></script>
+</main>
