@@ -4,7 +4,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
+body {  
     background: linear-gradient(rgb(240, 155, 240), rgb(255, 221, 157));
     min-height: 100vh;
 }
@@ -26,7 +26,6 @@ input[type="field"] {
     border-style: double;
     border-radius: 10px;
     border-color: black;
-    /* opacity: 0.5; */
 }
 
 .activityLevel {
@@ -55,10 +54,8 @@ input[type="field"] {
 }
 
 .question  {
-    /* justify-content: center; */
     text-align: center;
     background: white;
-    /* border-style: dotted; */
     border-radius: 15px;
     margin: 15px;
 }
@@ -80,7 +77,6 @@ input[type="field"] {
 }
 
 #activityDropdown {
-    /* border-style: double; */
     width: 200px;
 }
 
